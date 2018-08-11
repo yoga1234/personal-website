@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Yogasmara</title>
     <link rel="stylesheet" href="main.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <section id="home-section">
@@ -26,7 +27,7 @@
       </div>
     </section>
     <section id="about-section">
-      <div class="container">
+      <div class="container" data-aos="fade-up" data-aos-duration="1000">
         <div class="about-heading">
           ABOUT
         </div>
@@ -37,11 +38,11 @@
     </section>
     <section id="skills-section">
       <div class="container">
-        <div class="skills-heading">
+        <div class="skills-heading" data-aos="fade-down">
           SKILLS
         </div>
         <div class="skills-flex">
-          <div class="skill-set">
+          <div class="skill-set" data-aos="fade-right" data-aos-duration="1000">
             <div class="skill-name">
               HTML
             </div>
@@ -49,7 +50,7 @@
               <div class="skill-html"></div>
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skill-set" data-aos="fade-left" data-aos-duration="1000">
             <div class="skill-name">
               CSS
             </div>
@@ -57,7 +58,7 @@
               <div class="skill-css"></div>
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skill-set" data-aos="fade-right" data-aos-duration="1000">
             <div class="skill-name">
               JAVASCRIPT
             </div>
@@ -65,15 +66,15 @@
               <div class="skill-js"></div>
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skill-set" data-aos="fade-left" data-aos-duration="1000">
             <div class="skill-name">
-              BOOTSTRAP 4.x
+              BOOTSTRAP
             </div>
             <div class="skill-bar">
               <div class="skill-bootstrap"></div>
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skill-set" data-aos="fade-right" data-aos-duration="1000">
             <div class="skill-name">
               PHP
             </div>
@@ -81,15 +82,15 @@
               <div class="skill-php"></div>
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skill-set"  data-aos="fade-left" data-aos-duration="1000">
             <div class="skill-name">
-              CODE IGNITER 3.X/4.X
+              CODEIGNITER
             </div>
             <div class="skill-bar">
               <div class="skill-ci"></div>
             </div>
           </div>
-          <div class="skill-set">
+          <div class="skill-set"  data-aos="fade-right" data-aos-duration="1000">
             <div class="skill-name">
               UI/UX DESIGN
             </div>
@@ -114,6 +115,10 @@
         </div>
       </div>
     </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="main.js" charset="utf-8"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
